@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>STimpresiones</title>\
+    <script src="https://kit.fontawesome.com/be3dde77fc.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="estilos/style.css">
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+</head>
+<body>
+
+    <header>
+        <div class="header__superior">
+            <div class="logo">
+                <img src="images/LOGO1.png" alt="">
+            </div>
+            <div class="search">
+                <input type="search" placeholder="Que deseas Buscar?">
+            </div>
+        </div>
+        
+        <div class="container__menu">
+
+            <div class="menu">
+                <input type="checkbox" id="checkbox__menu">
+                <label id="laber__check" for="checkbox__menu">
+                    <i class="fa-solid fa-bars icon__menu"></i>
+                </label>
+                <nav>
+                    <ul>
+                        <li><a href="#">Inicio</a></li>
+                        <li><a href="#">Productos</a>
+                            <ul>
+                                <li><a href="#">Impresiones</a></li>
+                                <li><a href="#">Planos</a></li>
+                                <li><a href="#">Ejemplos1</a></li>
+                                <li><a href="#">Ejemplos2</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">Servicios</a></li>
+                        <li><a href="#">Nosotros</a></li>
+                        <li><a href="#">Contacto</a></li>
+                    </ul>
+                </nav>
+            </div>
+
+        </div>
+    </header>
+
+    <!--Slider-->
+
+    <section class="slider-container">
+        <div class="slider">
+            <div class="slide">
+                <img src="images/4 (1).jpg" alt="Image 1">
+            </div>
+            <div class="slide">
+                <img src="images/4 (2).jpg" alt="Image 2">
+            </div>
+            <div class="slide">
+                <img src="images/4 (3).jpg" alt="Image 3">
+            </div>
+        </div>
+        <div class="controls">
+            <button class="prev" onclick="moveSlide(-1)">&#10094;</button>
+            <button class="next" onclick="moveSlide(1)">&#10095;</button>
+        </div>
+        <script src="script.js"></script>
+    </section>
+
+
+
+    <!--Boton Flotante-->
+
+    <div class="button_container">
+        <div class="button">
+            <a href="https://wa.me/941811918" target="_blank">
+                <i class="fa-brands fa-whatsapp"></i>
+            </a>
+        </div>
+    </div>
+
+    <!--Productos-->
+
+    <section class="productos">
+        <!--Producto 1-->
+        <h1 class="heading1">Nuestros Productos</h1>
+
+        <div class="container_products">
+            <div class="card_product">
+                <div class="container_img">
+                    <img src="productos/Anillado.png" alt="Anillado">
+                    <!--<span class="discount">-13%</span> solo en caso de que llegase a haber un descuneto-->
+                </div>
+                <div class="content_card_product">
+                    <h3>Anillados</h3>
+                    <span class="add_cart">
+                        <i class="fa-solid fa-cart-shopping"></i>Comprar                  
+                    </span>
+                    <p class="price">$000</p>
+                </div>
+            </div>
+
+            <!--Producto 2-->
+
+            
+                <div class="card_product">
+                    <div class="container_img">
+                        <img src="productos/Carpeta.png" alt="Carpeta">
+                        <!--<span class="discount">-13%</span> solo en caso de que llegase a haber un descuneto-->
+                    </div>
+                    <div class="content_card_product">
+                        <h3>Carpeta</h3>
+                        <span class="add_cart">
+                            <i class="fa-solid fa-cart-shopping"></i>Comprar                    
+                        </span>
+                        <p class="price">$000</p>
+                    </div>
+                </div>
+
+                <!--Producto 3-->
+            
+                <div class="card_product">
+                    <div class="container_img">
+                        <img src="productos/Etiquetas.png" alt="Etiquetas">
+                        <!--<span class="discount">-13%</span> solo en caso de que llegase a haber un descuneto-->
+                    </div>
+                    <div class="content_card_product">
+                        <h3>Etiquetas</h3>
+                        <span class="add_cart">
+                            <i class="fa-solid fa-cart-shopping"></i>Comprar                    
+                        </span>
+                        <p class="price">$000</p>
+                    </div>
+                </div>
+
+                <!--Producto 4-->
+            
+                <div class="card_product">
+                    <div class="container_img">
+                        <img src="productos/Gigantografia.png" alt="Gigantografia">
+                        <!--<span class="discount">-13%</span> solo en caso de que llegase a haber un descuneto-->
+                    </div>
+                    <div class="content_card_product">
+                        <h3>Gigantografia</h3>
+                        <span class="add_cart">
+                            <i class="fa-solid fa-cart-shopping"></i>Comprar                    
+                        </span>
+                        <p class="price">$000</p>
+                    </div>
+                </div>
+
+                <!--Producto 5-->
+            
+                <div class="card_product">
+                    <div class="container_img">
+                        <img src="productos/Impresion_color.png" alt="Impresion_color">
+                        <!--<span class="discount">-13%</span> solo en caso de que llegase a haber un descuneto-->
+                    </div>
+                    <div class="content_card_product">
+                        <h3>Impresion a color</h3>
+                        <span class="add_cart">
+                            <i class="fa-solid fa-cart-shopping"></i>Comprar                    
+                        </span>
+                        <p class="price">$000</p>
+                    </div>
+                </div>
+
+                <!--Producto 6-->
+            
+                <div class="card_product">
+                    <div class="container_img">
+                        <img src="productos/impresionesblacno =ynegro.png" alt="Blanco_negro">
+                        <!--<span class="discount">-13%</span> solo en caso de que llegase a haber un descuneto-->
+                    </div>
+                    <div class="content_card_product">
+                        <h3>Impresion Blanco y Negro</h3>
+                        <span class="add_cart">
+                            <i class="fa-solid fa-cart-shopping"></i>Comprar                    
+                        </span>
+                        <p class="price">$000</p>
+                    </div>
+                </div>
+
+                <!--Producto 7-->
+            
+                <div class="card_product">
+                    <div class="container_img">
+                        <img src="productos/Papeladhesivo.png" alt="Papeladhesivo">
+                        <!--<span class="discount">-13%</span> solo en caso de que llegase a haber un descuneto-->
+                    </div>
+                    <div class="content_card_product">
+                        <h3>Papel adhesivo</h3>
+                        <span class="add_cart">
+                            <i class="fa-solid fa-cart-shopping"></i>Comprar                    
+                        </span>
+                        <p class="price">$000</p>
+                    </div>
+                </div>
+
+                <!--Producto 8-->
+            
+                <div class="card_product">
+                    <div class="container_img">
+                        <img src="productos/Ploteoplanos.png" alt="Ploteoplanos">
+                        <!--<span class="discount">-13%</span> solo en caso de que llegase a haber un descuneto-->
+                    </div>
+                    <div class="content_card_product">
+                        <h3>Ploteo de Planos</h3>
+                        <span class="add_cart">
+                            <i class="fa-solid fa-cart-shopping"></i>Comprar                    
+                        </span>
+                        <p class="price">$000</p>
+                    </div>
+                </div>
+
+                <!--Producto 9-->
+            
+                <div class="card_product">
+                    <div class="container_img">
+                        <img src="productos/Polilaminado.png" alt="Polilaminado">
+                        <!--<span class="discount">-13%</span> solo en caso de que llegase a haber un descuneto-->
+                    </div>
+                    <div class="content_card_product">
+                        <h3>Polilaminado</h3>
+                        <span class="add_cart">
+                            <i class="fa-solid fa-cart-shopping"></i>Comprar                    
+                        </span>
+                        <p class="price">$000</p>
+                    </div>
+                </div>
+
+                <!--Producto 10-->
+            
+                <div class="card_product">
+                    <div class="container_img">
+                        <img src="productos/Portacredenciales.png" alt="Portacredenciales">
+                        <!--<span class="discount">-13%</span> solo en caso de que llegase a haber un descuneto-->
+                    </div>
+                    <div class="content_card_product">
+                        <h3>Porta Credenciales</h3>
+                        <span class="add_cart">
+                            <i class="fa-solid fa-cart-shopping"></i>Comprar                    
+                        </span>
+                        <p class="price">$000</p>
+                    </div>
+                </div>
+
+                <!--Producto 11-->
+            
+                <div class="card_product">
+                    <div class="container_img">
+                        <img src="productos/PortacredencialYOYO.png" alt="PortacredencialYOYO">
+                        <!--<span class="discount">-13%</span> solo en caso de que llegase a haber un descuneto-->
+                    </div>
+                    <div class="content_card_product">
+                        <h3>Porta Credenciales (YOYO)</h3>
+                        <span class="add_cart">
+                            <i class="fa-solid fa-cart-shopping"></i>Comprar                    
+                        </span>
+                        <p class="price">$000</p>
+                    </div>
+                </div>
+
+                <!--Producto 12-->
+            
+                <div class="card_product">
+                    <div class="container_img">
+                        <img src="productos/Portaduo.png" alt="Portaduo">
+                        <!--<span class="discount">-13%</span> solo en caso de que llegase a haber un descuneto-->
+                    </div>
+                    <div class="content_card_product">
+                        <h3>Porta Credendciales DUO</h3>
+                        <span class="add_cart">
+                            <i class="fa-solid fa-cart-shopping"></i>Comprar                    
+                        </span>
+                        <p class="price">$000</p>
+                    </div>
+                </div>
+
+                <!--Producto 13-->
+            
+                <div class="card_product">
+                    <div class="container_img">
+                        <img src="productos/Portarigido.png" alt="Portarigido">
+                        <!--<span class="discount">-13%</span> solo en caso de que llegase a haber un descuneto-->
+                    </div>
+                    <div class="content_card_product">
+                        <h3>Porta Credenciales Rigido</h3>
+                        <span class="add_cart">
+                            <i class="fa-solid fa-cart-shopping"></i>Comprar                    
+                        </span>
+                        <p class="price">$000</p>
+                    </div>
+                </div>
+
+                <!--Producto 14-->
+            
+                <div class="card_product">
+                    <div class="container_img">
+                        <img src="productos/Tarejtapresentacion.png" alt="Tarejtapresentacion">
+                        <!--<span class="discount">-13%</span> solo en caso de que llegase a haber un descuneto-->
+                    </div>
+                    <div class="content_card_product">
+                        <h3>Tarjeta Presentacion</h3>
+                        <span class="add_cart">
+                            <i class="fa-solid fa-cart-shopping"></i>Comprar                    
+                        </span>
+                        <p class="price">$000</p>
+                    </div>
+                </div>
+
+                <!--Producto 15-->
+            
+                <div class="card_product">
+                    <div class="container_img">
+                        <img src="productos/tarjeta_pvc.png" alt="tarjeta_pvc">
+                        <!--<span class="discount">-13%</span> solo en caso de que llegase a haber un descuneto-->
+                    </div>
+                    <div class="content_card_product">
+                        <h3>Tarjeta PVC</h3>
+                        <span class="add_cart">
+                            <i class="fa-solid fa-cart-shopping"></i>Comprar                    
+                        </span>
+                        <p class="price">$000</p>
+                    </div>
+                </div>
+
+                <!--Producto 16-->
+            
+                <div class="card_product">
+                    <div class="container_img">
+                        <img src="productos/Termolaminado.png" alt="Termolaminado">
+                        <!--<span class="discount">-13%</span> solo en caso de que llegase a haber un descuneto-->
+                    </div>
+                    <div class="content_card_product">
+                        <h3>Termolaminado</h3>
+                        <span class="add_cart">
+                            <i class="fa-solid fa-cart-shopping"></i>Comprar                    
+                        </span>
+                        <p class="price">$000</p>
+                    </div>
+                </div>
+            
+
+        </div>
+    </section>
+
+    <!--Footer-->
+
+    <section>
+        <footer>
+            <div class="footer_container">
+                <div class="footer_section">
+                    <h3>Contacto</h3>
+                    <ul>
+                        <li>Teléfono: +56 987654321</li>
+                        <li>Email: correodeejemplo@gmail.com</li>
+                    </ul>
+                </div>
+    
+                <div class="footer_section">
+                    <h3>Dirección</h3>
+                    <ul>
+                        <li>Calle: Sergio May Colvin 491, Santiago, Pudahuel</li>
+                        <li><a href="https://www.google.cl/maps/place/Sergio+May+Colvin+491,+9071631+Pudahuel,+Regi%C3%B3n+Metropolitana/@-33.4554265,-70.7508885,17z/data=!3m1!4b1!4m6!3m5!1s0x9662c3a43cee31fd:0x767fef4c8cc296c1!8m2!3d-33.455431!4d-70.7483136!16s%2Fg%2F11knlvzk5h?entry=ttu&g_ep=EgoyMDI0MTIwMi4wIKXMDSoASAFQAw%3D%3D">Ver en Google Maps</a></li>
+                    </ul>
+    
+                    <!-- Google Maps -->
+                    <div class="map_container">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3328.765078335107!2d-70.75088852357615!3d-33.45542649776834!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9662c3a43cee31fd%3A0x767fef4c8cc296c1!2sSergio%20May%20Colvin%20491%2C%209071631%20Pudahuel%2C%20Regi%C3%B3n%20Metropolitana!5e0!3m2!1ses-419!2scl!4v1733350259304!5m2!1ses-419!2scl" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                </div>
+    
+                <div class="footer_section">
+                    <h3>Nuestras Redes</h3>
+                    <ul class="social_icons">
+                        <li><a href="https://www.facebook.com/STimpresionesSpa/" target="_blank"><i class="fa-brands fa-facebook"></i>       Facebook</a></li>
+                        <li><a href="https://www.instagram.com/stimpresiones/" target="_blank"><i class="fa-brands fa-instagram"></i>       Instagram</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="footer_section_copy">
+                <p>&copy; 2024 Empresa. Todos los derechos reservados.</p>
+            </div>
+
+        </footer>
+    </section>
+
+
+</body>
+</html>

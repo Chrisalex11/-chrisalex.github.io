@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>STimpresiones</title>\
+    <script src="https://kit.fontawesome.com/be3dde77fc.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="estilos/style.css">
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    <script src="products.js"></script>
+</head>
+<body>
+
+    <header>
+        <div class="header__superior">
+            <div class="logo">
+                <img src="images/LOGO-ST-IMPRESIONES-SPA-62kb.png" alt="">
+            </div>
+            <div class="search">
+                <input type="search" placeholder="Que deseas Buscar?">
+            </div>
+        </div>
+        
+        <div class="container__menu">
+
+            <div class="menu">
+                <input type="checkbox" id="checkbox__menu">
+                <label id="laber__check" for="checkbox__menu">
+                    <i class="fa-solid fa-bars icon__menu"></i>
+                </label>
+                <nav>
+                    <ul>
+                        <li><a href="#">Inicio</a></li>
+                        <li><a href="#">Productos</a>
+                            <ul>
+                                <li><a href="#">Impresiones</a></li>
+                                <li><a href="#">Planos</a></li>
+                                <li><a href="#">Ejemplos1</a></li>
+                                <li><a href="#">Ejemplos2</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">Servicios</a></li>
+                        <li><a href="#">Nosotros</a></li>
+                        <li><a href="#">Contacto</a></li>
+                    </ul>
+                </nav>
+            </div>
+
+        </div>
+    </header>
+
+    <!--Boton Flotante-->
+
+    <div class="button_container">
+        <div class="button">
+            <a href="https://wa.me/941811918" target="_blank">
+                <i class="fa-brands fa-whatsapp"></i>
+            </a>
+        </div>
+    </div>
+
+
+    <!--Productos-->
+
+
+    <div id="producto-container">
+        <div id="producto-container-left">
+            <h1 id="nombre-producto"></h1>
+            <img id="imagen-producto" alt="Imagen del producto">
+        </div>
+
+        <div id="producto-container-right">
+            <p id="descripcion-producto"></p>
+            <span id="precio-producto"></span>
+            <button id="buy-button">Cotizar</button>
+        </div>
+    </div>
+
+    
+    <script src="products.js"></script>
+
+    
+
+    <!-- Botón de compra -->
+
+
+<!-- Modal de contacto -->
+<div id="contact-modal" style="display: none;">
+    <div class="modal-content">
+        <p>Selecciona tu opción de contacto</p>
+        <a href="mailto:correo@ejemplo.com" target="_blank">Enviar correo</a>
+        <a href="https://wa.me/1234567890" target="_blank">Contactar por WhatsApp</a>
+        <button onclick="document.getElementById('contact-modal').style.display='none'">Cerrar</button>
+    </div>
+</div>
+
+
+<!--Footer-->
+
+<section>
+    <footer>
+        <div class="footer_container">
+            <div class="footer_section">
+                <h3>Contacto</h3>
+                <ul>
+                    <li>Teléfono: +56 987654321</li>
+                    <li>Email: correodeejemplo@gmail.com</li>
+                </ul>
+            </div>
+
+            <div class="footer_section">
+                <h3>Dirección</h3>
+                <ul>
+                    <li>Calle: Sergio May Colvin 491, Santiago, Pudahuel</li>
+                    <li><a href="https://www.google.cl/maps/place/Sergio+May+Colvin+491,+9071631+Pudahuel,+Regi%C3%B3n+Metropolitana/@-33.4554265,-70.7508885,17z/data=!3m1!4b1!4m6!3m5!1s0x9662c3a43cee31fd:0x767fef4c8cc296c1!8m2!3d-33.455431!4d-70.7483136!16s%2Fg%2F11knlvzk5h?entry=ttu&g_ep=EgoyMDI0MTIwMi4wIKXMDSoASAFQAw%3D%3D">Ver en Google Maps</a></li>
+                </ul>
+
+                <!-- Google Maps -->
+                <div class="map_container">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3328.765078335107!2d-70.75088852357615!3d-33.45542649776834!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9662c3a43cee31fd%3A0x767fef4c8cc296c1!2sSergio%20May%20Colvin%20491%2C%209071631%20Pudahuel%2C%20Regi%C3%B3n%20Metropolitana!5e0!3m2!1ses-419!2scl!4v1733350259304!5m2!1ses-419!2scl" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+
+            <div class="footer_section">
+                <h3>Nuestras Redes</h3>
+                <ul class="social_icons">
+                    <li><a href="https://www.facebook.com/STimpresionesSpa/" target="_blank"><i class="fa-brands fa-facebook"></i>       Facebook</a></li>
+                    <li><a href="https://www.instagram.com/stimpresiones/" target="_blank"><i class="fa-brands fa-instagram"></i>       Instagram</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="footer_section_copy">
+            <p>&copy; 2024 Empresa. Todos los derechos reservados.</p>
+        </div>
+
+    </footer>
+</section>
+
+    
+
+
+    
+   
+</body>   

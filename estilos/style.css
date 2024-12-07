@@ -26,7 +26,7 @@ header{
     position: fixed;
     top: 0;
     left: 0;
-    background: white;
+    background: #002d5a;
     z-index: 1000;
 }
 
@@ -42,7 +42,7 @@ header{
 }
 
 .logo img{
-    width: 60px;
+    width: 220px;
 }
 
 .search input{
@@ -602,7 +602,7 @@ footer{
     }
 
     .logo img{
-        width: 40px;
+        width: 200px;
     }
 
     nav > ul{
@@ -683,7 +683,7 @@ footer{
     }
 
     .logo img{
-        width: 40px;
+        width: 150px;
     }
 
     nav > ul{
@@ -755,7 +755,7 @@ footer{
     }
 
     .logo img{
-        width: 40px;
+        width: 150px;
     }
 
     nav > ul{
@@ -827,7 +827,7 @@ footer{
     }
 
     .logo img{
-        width: 40px;
+        width: 140px;
     }
 
     nav > ul{
@@ -930,7 +930,7 @@ footer{
     }
 
     .logo img{
-        width: 40px;
+        width: 140px;
     }
 
     nav > ul{
@@ -1017,3 +1017,176 @@ footer{
 
     
 }
+
+
+#producto-container{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#producto-container-left{
+    flex: 1;
+    max-width: 45%;
+    text-align: left;
+}
+
+#imagen-producto{
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+#nombre-producto{
+    margin-top: 200px;
+    font-size: 2.2em;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+#producto-container-right{
+    margin-top: 300px;
+    flex: 1;
+    max-width: 35%;
+    text-align: left;
+    padding-left: 20px;
+}
+
+#descripcion-producto{
+    font-size: 1.2em;
+    color: #555;
+    margin-bottom: 20px;
+    text-align: left;
+    max-width: 100%;
+    line-height: 1.8;
+}
+
+#precio-producto{
+    font-size: 1.8em;
+    color: #009FE3;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+#buy-button{
+    padding: 15px 30px;
+    background-color: #009FE3;
+    color: #fff;
+    font-size: 1.2em;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#buy-button:hover{
+    background-color: #0073a5;
+}
+
+#buy-button:active{
+    transform: scale(0.98);
+}
+
+
+/* Estilo para el modal */
+#contact-modal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.7); /* Fondo oscuro semi-transparente */
+    z-index: 1000; /* Asegura que el modal esté sobre otros elementos */
+}
+
+
+
+#contact-modal div{
+    display: block;
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 10px;
+    width: auto;
+    max-width: 400px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin-top: 250px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#contact-modal p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+/* Estilo para el contenido del modal */
+#contact-modal a {
+    display: block;
+    text-align: center;
+    justify-content: center;
+    margin: 10px auto;
+    padding: 10px;
+    background-color: #009FE3;
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    max-width: 300px;
+}
+
+#contact-modal a:hover {
+    background-color: #0073a5;
+    color: #f0f0f0;
+}
+
+#contact-model a:active{
+    transform: scale(1);
+}
+
+#contact-modal button {
+    display: flex;
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #f44336;
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: auto; /* Esto asegura que el botón no ocupe todo el ancho */
+    margin-left: auto; /* Esto lo centra */
+    margin-right: auto; /* Esto también lo centra */
+}
+
+@media (max-width: 768px) {
+    #producto-container {
+        padding: 10px;
+    }
+
+    #nombre-producto {
+        font-size: 1.5em;
+    }
+
+    #descripcion-producto, #precio-producto {
+        font-size: 1em;
+    }
+}
+

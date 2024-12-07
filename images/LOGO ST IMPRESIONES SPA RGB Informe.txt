@@ -1,0 +1,41 @@
+Informe del paquete
+
+-----------------------------------------------------------------------------
+Documento:
+Nombre: LOGO ST IMPRESIONES SPA RGB.ai
+Modo de color: Color RGB
+Perfil de color: Adobe RGB (1998)
+Unidades de regla: píxeles
+Dimensiones de la mesa de trabajo: 2800 px x 1200 px
+Mostrar imágenes en modo contorno: Desactivado
+Resaltar fuentes sustituidas: Desactivado
+Resaltar glifos sustituidos: Desactivado
+Conservar capacidad de edición de texto
+Simular papel de color: Desactivado
+
+-----------------------------------------------------------------------------
+Objetos de tintas planas:
+
+-----------------------------------------------------------------------------
+Fuentes no disponibles:Ninguno
+
+-----------------------------------------------------------------------------
+Fuentes protegidas no empaquetadas:Ninguno
+
+-----------------------------------------------------------------------------
+Fuentes:
+GothamBold (OTF)
+Gotham Book (OTF)
+Montserrat Bold (OTF)
+
+-----------------------------------------------------------------------------
+Fuentes incrustadas:
+Ninguno
+
+-----------------------------------------------------------------------------
+Enlaces no disponibles:
+Ninguno
+
+-----------------------------------------------------------------------------
+Imágenes enlazadas:
+Ninguno

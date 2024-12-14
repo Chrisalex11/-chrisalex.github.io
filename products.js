@@ -31,6 +31,11 @@ fetch('products.json')
 
       document.getElementById('buy-button').onclick = function() {
         document.getElementById('contact-modal').style.display = 'block';
+        // Generar el enlace de WhatsApp
+        const numeroWhatsApp = "941811918"; // Cambia por el número que usarás
+        const mensaje = `Hola, estoy interesado en el producto ${producto.Nombre}. Por favor, ¿podrían darme más información?`;
+        const whatsappLink = document.getElementById("whatsapp-link");
+        whatsappLink.href = `https://wa.me/${numeroWhatsApp}?text=${encodeURIComponent(mensaje)}`;
     };
 
     } else {

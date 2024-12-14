@@ -2,112 +2,186 @@
     "1":{
         "Nombre": "Anillados",
         "Imagen": "productos/Anillado.png",
-        "Descripcion": "- Anillados de tamaño no sé qué\n- Otro detalle sobre el producto\n- Más información adicional", 
-        "Precio": "$200"
+        "Descripcion": "- Anillados de tamaño no sé qué\n- Otro detalle sobre el producto\n- Más información adicional"
     },
 
     "2":{
-        "Nombre": "Producto 2",
+        "Nombre": "Careptas",
         "Imagen": "productos/Carpeta.png",
-        "Descripcion": "Carpetas de tamaño x para hacer no se que para hacer no se cuantas coas bla bla bla",
-        "Precio": "$100"
+        "Descripcion": "Carpetas e tamaño x para hacer no se que para hacer no se cuantas coas bla bla bla"
     },
 
     "3":{
-        "Nombre": "Nombre",
-        "Imagen": "productos/",
-        "Descripcion": "", 
-        "Precio": "$200"
+        "Nombre": "Etiquetas",
+        "Imagen": "productos/Etiquetas.png",
+        "Descripcion": ""
     },
 
     "4":{
-        "Nombre": "Nombre",
-        "Imagen": "productos/",
-        "Descripcion": "", 
-        "Precio": "$200"
+        "Nombre": "Gigantografia",
+        "Imagen": "productos/Gigantografia.png",
+        "Descripcion": ""
     },
     
     "5":{
-        "Nombre": "Nombre",
-        "Imagen": "productos/",
-        "Descripcion": "", 
-        "Precio": "$200"
+        "Nombre": "Impresion a Color",
+        "Imagen": "productos/Impresion_color.png",
+        "Descripcion": ""
     },
 
     "6":{
-        "Nombre": "Nombre",
-        "Imagen": "productos/",
-        "Descripcion": "", 
-        "Precio": "$200"
+        "Nombre": "Impresion Blanco y Negro",
+        "Imagen": "productos/impresionesblacno =ynegro.png",
+        "Descripcion": ""
     },
 
     "7":{
-        "Nombre": "Nombre",
+        "Nombre": "Escaner documentos b/n",
         "Imagen": "productos/",
-        "Descripcion": "", 
-        "Precio": "$200"
+        "Descripcion": ""
     },
 
     "8":{
-        "Nombre": "Nombre",
+        "Nombre": "Escaner documentos a color",
         "Imagen": "productos/",
-        "Descripcion": "", 
-        "Precio": "$200"
+        "Descripcion": ""
     },
 
     "9":{
-        "Nombre": "Nombre",
+        "Nombre": "Escaner planos b/n",
         "Imagen": "productos/",
-        "Descripcion": "", 
-        "Precio": "$200"
+        "Descripcion": ""
     },
 
     "10":{
-        "Nombre": "Nombre",
+        "Nombre": "Escaner planos a color",
         "Imagen": "productos/",
-        "Descripcion": "", 
-        "Precio": "$200"
+        "Descripcion": ""
     },
 
     "11":{
-        "Nombre": "Nombre",
-        "Imagen": "productos/",
-        "Descripcion": "", 
-        "Precio": "$200"
+        "Nombre": "Ploteo de planos b/n",
+        "Imagen": "productos/Ploteoplanos.png",
+        "Descripcion": ""
     },
 
     "12":{
-        "Nombre": "Nombre",
-        "Imagen": "productos/",
-        "Descripcion": "", 
-        "Precio": "$200"
+        "Nombre": "Ploteo de planos a color",
+        "Imagen": "productos/Ploteoplanos.png",
+        "Descripcion": ""
     },
 
     "13":{
-        "Nombre": "Nombre",
-        "Imagen": "productos/",
-        "Descripcion": "", 
-        "Precio": "$200"
+        "Nombre": "papel adhesivo",
+        "Imagen": "productos/Papeladhesivo.png",
+        "Descripcion": ""
     },
 
     "14":{
-        "Nombre": "Nombre",
-        "Imagen": "productos/",
-        "Descripcion": "", 
-        "Precio": "$200"
+        "Nombre": "Papel Bond",
+        "Imagen": "productos/papel bond.png",
+        "Descripcion": ""
     },
 
     "15":{
-        "Nombre": "Nombre",
-        "Imagen": "productos/",
-        "Descripcion": "", 
-        "Precio": "$200"
+        "Nombre": "Papel Glossy",
+        "Imagen": "productos/papel glossy.png",
+        "Descripcion": ""
     },
 
     "16":{
-        "Nombre": "Nombre",
+        "Nombre": "Carton piedra",
         "Imagen": "productos/",
-        "Descripcion": "", 
-        "Precio": "$200"
+        "Descripcion": ""
+    },
+
+    "17":{
+        "Nombre": "Etiquetas",
+        "Imagen": "productos/Etiquetas.png",
+        "Descripcion": ""
+    },
+
+    "18":{
+        "Nombre": "Papel transfer",
+        "Imagen": "productos/",
+        "Descripcion": ""
+    },
+
+    "19":{
+        "Nombre": "Papel magnetico",
+        "Imagen": "productos/",
+        "Descripcion": ""
+    },
+
+    "20":{
+        "Nombre": "Archivador",
+        "Imagen": "productos/",
+        "Descripcion": ""
+    },
+
+    "21":{
+        "Nombre": "Separador",
+        "Imagen": "productos/",
+        "Descripcion": ""
+    },
+
+    "22":{
+        "Nombre": "Sobre saco",
+        "Imagen": "productos/",
+        "Descripcion": ""
+    },
+
+    "23":{
+        "Nombre": "Tarjeta presentacion",
+        "Imagen": "productos/Tarejtapresentacion.png",
+        "Descripcion": ""
+    },
+
+    "24":{
+        "Nombre": "Credencial",
+        "Imagen": "productos/credencial.png",
+        "Descripcion": ""
+    },
+
+    "25":{
+        "Nombre": "Credencial pvc",
+        "Imagen": "productos/credencialpvc.png",
+        "Descripcion": ""
+    },
+
+    "26":{
+        "Nombre": "porta credencial",
+        "Imagen": "productos/Portacredenciales.png",
+        "Descripcion": ""
+    },
+
+    "27":{
+        "Nombre": "encuadernacion",
+        "Imagen": "productos/encuadernacion.png",
+        "Descripcion": ""
+    },
+
+    "28":{
+        "Nombre": "Careptas corporativa",
+        "Imagen": "productos/carpetacorp.png",
+        "Descripcion": "Carpetas e tamaño x para hacer no se que para hacer no se cuantas coas bla bla bla"
+    },
+
+    "29":{
+        "Nombre": "plastificado",
+        "Imagen": "productos/",
+        "Descripcion": ""
+    },
+
+    "30":{
+        "Nombre": "polilaminado",
+        "Imagen": "productos/Polilaminado.png",
+        "Descripcion": ""
+    },
+
+    "31":{
+        "Nombre": "termolaminado",
+        "Imagen": "productos/Termolaminado.png",
+        "Descripcion": ""
     }
 }
